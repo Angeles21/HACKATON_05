@@ -141,6 +141,7 @@ a {
 	background-color: rgba(16, 50, 49, 0.713);
 	margin: 0 auto;
 	padding: 8vh;
+	border-radius: 20px;
 }
 .icons {
 	display: flex;
@@ -232,7 +233,16 @@ hr {
 	background-color: rgb(5, 167, 158);
 	text-align: center;
 	padding: 10vh;
+	border-radius: 20px;
 }
+.circle-left2 {
+	background-color: rgb(223, 223, 223);
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	padding: 4vh;
+}
+
 .left-2 h4 {
 	padding-top: 2vh;
 	font-weight: 20;
@@ -243,11 +253,19 @@ hr {
 	font-size: 20px;
 }
 .right-2 {
-	justify-content: flex-end;
 	margin: 2vh;
+	justify-content: left;
 	background-color: rgb(5, 167, 158);
 	text-align: center;
 	padding: 10vh;
+	border-radius: 20px;
+}
+.circle-right2 {
+	background-color: rgb(223, 223, 223);
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	padding: 4vh;
 }
 .right-2 h4 {
 	padding-top: 2vh;
@@ -304,4 +322,5 @@ a {
 	text-decoration: none;
 	font-size: small;
 	color: rgba(173, 173, 171, 0.292);
+	padding-top: 7px;
 }
